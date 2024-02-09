@@ -3,11 +3,12 @@
 <br>
 
 
-### :bank: Contexto "Anonymous Bank" Call-Center DataSet :bank:
+## :bank: Contexto "Anonymous Bank" Call-Center DataSet :bank:
 
 Este documento describe caso de negocio basado en un Call Center de un Banco: “Anonymous Bank” en Israel. El dataset contiene las llamadas registradas durante 12 meses (desde el 01/01/99 hasta el 31/12/99).
 
 El call center de "Anonymous Bank" provee varios servicios diferentes:
+
 * Información y transacciones sobre cheques y cuentas de ahorros, de sus clientes bancarios.
 * Respuesta de voz generada por computadora con información sobre las cuentas de los clientes (a través del dispositivo VRU = Voice Response Unit (unidad de respuesta de voz). Una unidad de respuesta de voz (VRU) es un sistema de contestador telefónico automático que posee un hardware y software que permite a la persona que llama navegar a través de una serie de mensajes pregrabados y utilizar un menú de opciones mediante los botones de un teléfono o el reconocimiento de voz.)
 * Brindar información a prospectos de clientes. 
@@ -15,9 +16,8 @@ El call center de "Anonymous Bank" provee varios servicios diferentes:
 
 <br>
 
-## Call-Center
-
 Analizar las operaciones de un Call Center de un Banco, para proponer mejoras en:
+
 * Eficiencia operativa, proponiendo mejoras operativas.
 * Mejorar la satisfacción del cliente, cumpliendo los SLA comprometidos.
 * Brindar una herramienta para la gestión y la toma de decisiones a los managers del Call Center.
@@ -27,13 +27,13 @@ Para ello, se propone que definamos los KPIs adecuados para poder medir los obje
 
 <br>
 
-## :hammer: Creación y conexión de la máquina virtual (entorno linux)
+## EDA y ETL
 
 
-Luego de descargar Virtual Box y Putty desde sus páginas oficiales, se procede a la creación y configuración de un nuevo entorno virtual... 
+Con el propósito es examinar en profundidad las operaciones del Call Center para identificar oportunidades de mejora en términos de eficiencia operativa y satisfacción del cliente, además de proporcionar una herramienta de gestión útil para los responsables del Call Center, se aplicaron los procesos de EDA y ETL sobre el conjunto de datos provisto por el banco. Habiendo hecho esto estaremos en condiciones de definir, construir y presentar un Dashboard que permita medir los niveles de calidad de servicio, eficiencia y productividad del Call Center. A partir de este análisis, podremos definir los KPIs adecuados para medir los objetivos propuestos, y establecer nuevos niveles objetivos para ofrecer esos niveles de SLA a terceros, o para desarrollar un nuevo servicio Premium para los clientes más importantes del banco.
 
 <p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M4/blob/main/Imagenes_proyecto/Conexion_VB.png" alt="imagen de la creación de una nueva máquina virtual" width="650" height="420">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/EDA_ETL.png" alt="imagen de dataset en powerquery" width="650" height="420">
 </p>
 
 *Se selecciona el símbolo celeste para crear una NUEVA máquina virtual, y se asegura que tengamos habilitado el modo expero (se puede seleccionar el modo experto o modo guiado, en la barra menú que se encuentra en el borde inferior).*
@@ -64,7 +64,7 @@ Luego de descargar Virtual Box y Putty desde sus páginas oficiales, se procede 
 
 <br>
 
-### Limpieza de la máquina virtual (opcional)
+## :bar_chart: Dashboard
 
 #### Limpieza del disco duro
 
