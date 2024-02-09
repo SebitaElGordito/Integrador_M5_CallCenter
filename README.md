@@ -3,15 +3,15 @@
 <br>
 
 
-### Contexto "Anonymous Bank" Call-Center DataSet
+### :bank: Contexto "Anonymous Bank" Call-Center DataSet :bank:
 
 Este documento describe caso de negocio basado en un Call Center de un Banco: “Anonymous Bank” en Israel. El dataset contiene las llamadas registradas durante 12 meses (desde el 01/01/99 hasta el 31/12/99).
 
 El call center de "Anonymous Bank" provee varios servicios diferentes:
-•Información y transacciones sobre cheques y cuentas de ahorros, de sus clientes bancarios.
-• Respuesta de voz generada por computadora con información sobre las cuentas de los clientes (a través del dispositivo VRU = Voice Response Unit (unidad de respuesta de voz). Una unidad de respuesta de voz (VRU) es un sistema de contestador telefónico automático que posee un hardware y software que permite a la persona que llama navegar a través de una serie de mensajes pregrabados y utilizar un menú de opciones mediante los botones de un teléfono o el reconocimiento de voz.)
-• Brindar información a prospectos de clientes. 
-• Soporte a los clientes del web-site de "Anonymous Bank" (clientes que acceden al Home Banking)
+* Información y transacciones sobre cheques y cuentas de ahorros, de sus clientes bancarios.
+* Respuesta de voz generada por computadora con información sobre las cuentas de los clientes (a través del dispositivo VRU = Voice Response Unit (unidad de respuesta de voz). Una unidad de respuesta de voz (VRU) es un sistema de contestador telefónico automático que posee un hardware y software que permite a la persona que llama navegar a través de una serie de mensajes pregrabados y utilizar un menú de opciones mediante los botones de un teléfono o el reconocimiento de voz.)
+* Brindar información a prospectos de clientes. 
+* Soporte a los clientes del web-site de "Anonymous Bank" (clientes que acceden al Home Banking)
 
 <br>
 
