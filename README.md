@@ -3,7 +3,7 @@
 <br>
 
 
-## :bank: Contexto "Anonymous Bank" Call-Center DataSet :bank:
+## :bank: Contexto "Anonymous Bank" Call-Center DataSet 
 
 Este documento describe caso de negocio basado en un Call Center de un Banco: “Anonymous Bank” en Israel. El dataset contiene las llamadas registradas durante 12 meses (desde el 01/01/99 hasta el 31/12/99).
 
@@ -15,6 +15,8 @@ El call center de "Anonymous Bank" provee varios servicios diferentes:
 * Soporte a los clientes del web-site de "Anonymous Bank" (clientes que acceden al Home Banking)
 
 <br>
+
+## :phone: Call Center
 
 Analizar las operaciones de un Call Center de un Banco, para proponer mejoras en:
 
