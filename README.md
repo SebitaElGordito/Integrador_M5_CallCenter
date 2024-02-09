@@ -3,11 +3,27 @@
 <br>
 
 
-### Contexto
+### Contexto "Anonymous Bank" Call-Center DataSet
 
-Durante esta practica la idea es emular un ambiente de trabajo, desde un área de innovación solicitan construir un MVP(Producto viable mínimo) de un ambiente de Big Data donde se deban cargar unos archivos CSV que anteriormente se utilizaban en un datawarehouse en MySQl, pero ahora en un entorno de Hadoop.
+Este documento describe caso de negocio basado en un Call Center de un Banco: “Anonymous Bank” en Israel. El dataset contiene las llamadas registradas durante 12 meses (desde el 01/01/99 hasta el 31/12/99).
 
-Desde la gerencia de Infraestructura no están muy convencidos de utilizar esta tecnología por lo que no se asigno presupuesto alguna para esta iniciativa, de forma tal que por el momento no es posible utilizar un Vendor(Azure, AWS, Google) para implementar dicho entorno, es por esto que todo el MVP se deberá implementar utilizando Docker de forma tal que se pueda hacer una demo al sector de infraestructura mostrando las ventajas de utilizar tecnologías de Big Data.
+El call center de "Anonymous Bank" provee varios servicios diferentes:
+•Información y transacciones sobre cheques y cuentas de ahorros, de sus clientes bancarios.
+• Respuesta de voz generada por computadora con información sobre las cuentas de los clientes (a través del dispositivo VRU = Voice Response Unit (unidad de respuesta de voz). Una unidad de respuesta de voz (VRU) es un sistema de contestador telefónico automático que posee un hardware y software que permite a la persona que llama navegar a través de una serie de mensajes pregrabados y utilizar un menú de opciones mediante los botones de un teléfono o el reconocimiento de voz.)
+• Brindar información a prospectos de clientes. 
+• Soporte a los clientes del web-site de "Anonymous Bank" (clientes que acceden al Home Banking)
+
+<br>
+
+## Call-Center
+
+Analizar las operaciones de un Call Center de un Banco, para proponer mejoras en:
+* Eficiencia operativa, proponiendo mejoras operativas.
+* Mejorar la satisfacción del cliente, cumpliendo los SLA comprometidos.
+* Brindar una herramienta para la gestión y la toma de decisiones a los managers del Call Center.
+
+En conclusión se solicita definir, construir y presentar un Dashboard que permita medir los niveles de calidad de servicio, eficiencia y productividad del Call Center.
+Para ello, se propone que definamos los KPIs adecuados para poder medir los objetivos propuestos, y definir nuevos niveles objetivos de manera de ofrecer esos niveles de SLA a terceras partes, o generar un nuevo servicio Premium para los clientes mas importantes del banco.
 
 <br>
 
