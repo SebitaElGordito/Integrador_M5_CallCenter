@@ -16,7 +16,7 @@ El call center de "Anonymous Bank" provee varios servicios diferentes:
 
 <br>
 
-## :telephone: Call Center
+## :telephone_receiver: Call Center
 
 Analizar las operaciones de un Call Center de un Banco, para proponer mejoras en:
 
