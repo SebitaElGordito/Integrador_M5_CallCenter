@@ -29,16 +29,17 @@ Para ello, se propone que definamos los KPIs adecuados para poder medir los obje
 
 <br>
 
-## EDA y ETL
+## :stethoscope: EDA y ETL
 
 
 Con el propósito es examinar en profundidad las operaciones del Call Center para identificar oportunidades de mejora en términos de eficiencia operativa y satisfacción del cliente, además de proporcionar una herramienta de gestión útil para los responsables del Call Center, se aplicaron los procesos de EDA y ETL sobre el conjunto de datos provisto por el banco. Habiendo hecho esto estaremos en condiciones de definir, construir y presentar un Dashboard que permita medir los niveles de calidad de servicio, eficiencia y productividad del Call Center. A partir de este análisis, podremos definir los KPIs adecuados para medir los objetivos propuestos, y establecer nuevos niveles objetivos para ofrecer esos niveles de SLA a terceros, o para desarrollar un nuevo servicio Premium para los clientes más importantes del banco.
-
+<br>
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/EDA_ETL.png" alt="imagen de dataset en powerquery" width="650" height="420">
 </p>
+<br>
 
-*Se selecciona el símbolo celeste para crear una NUEVA máquina virtual, y se asegura que tengamos habilitado el modo expero (se puede seleccionar el modo experto o modo guiado, en la barra menú que se encuentra en el borde inferior).*
+Se realizaron modificaciones en los valores de varias columnas , decidiendo no imputar esos datos, por encontrar una lógica para su transformación y conservación. En la columna de los agentes existian errores de ingreso de los nombres de los agentes. Estos datos podrían corroborarse pidiendo una lista de los nombres de los empleados, pero por ejemplo, se decidió unificar las llamadas asignadas al empleado NAAMAT con las del agente No_serverAMAT, o el empleado ANAT y los datos del empleado ANo_serverT, encontrando la relación lógica de que en los empleados donde existian las letras NA, por alguna razón se les modificaba a "No_server"
 
 <br>
 <br>
