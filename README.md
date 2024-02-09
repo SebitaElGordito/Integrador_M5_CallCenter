@@ -1,48 +1,4 @@
-# :construction: Práctica Integradora :construction:
-
-
-<br>
-
-## Índice
-
-* [Contexto](#contexto)
-
-+ [Creación y conexión de la máquina virtual](#hammer-creación-y-conexión-de-la-máquina-virtual-entorno-linux)
-
-  * [Limpieza de la máquina virtual (opcional)](#limpieza-de-la-máquina-virtual-opcional)
-
-* [Clonación del Repositorio](#calling-clonación-del-repositorio-inicio-y-ejecución-de-los-servicios-docker-composeyml)
-
-* [HDFS](#floppy_disk-hdfs---hadoop-distributed-file-system)
-
-* [Hive](#bookmark_tabs-hive)
-
-* [Formatos de Almacenamiento](#file_cabinet-formatos-de-almacenamiento)
-
-* [SQL](#computer-sql)
-
-+ [No-SQL](#card_file_box-no-sql)
-  * [H-base](#h-base)
-
-  * [Mondodb](#mongodb)
-
-  * [Neo4j](#neo4j)
-
-+ [Spark](#magic_wand-spark)
-
-  * [Spark y Scala](#spark-y-scala)
-
-  * [Kafka](#kafka)
-
-  * [Comparativa Datasets y Dataframe en Scala](#comparativa-datasets-y-dataframe-en-scala)
-
-* [Carga Incremental con Spark](#hourglass-carga-incremental-con-spark)
-
-* [Herramientas de Orquestación de flujo de datos](#abacus-herramientas-de-orquestación-de-flujo-de-datos)
-
-* [Participantes y compañeros del pair programming](#people_hugging-participantes-y-compañeros-del-pair-programming)
-
-
+# :bar_chart: Práctica Integradora M5 :bar_chart:
 
 <br>
 
@@ -545,3 +501,43 @@ Con esta herramienta, se puede automatizar las tareas de flujo de carga de traba
 
 <br>
  
+ <br>
+
+## Índice
+
+* [Contexto](#contexto)
+
++ [Creación y conexión de la máquina virtual](#hammer-creación-y-conexión-de-la-máquina-virtual-entorno-linux)
+
+  * [Limpieza de la máquina virtual (opcional)](#limpieza-de-la-máquina-virtual-opcional)
+
+* [Clonación del Repositorio](#calling-clonación-del-repositorio-inicio-y-ejecución-de-los-servicios-docker-composeyml)
+
+* [HDFS](#floppy_disk-hdfs---hadoop-distributed-file-system)
+
+* [Hive](#bookmark_tabs-hive)
+
+* [Formatos de Almacenamiento](#file_cabinet-formatos-de-almacenamiento)
+
+* [SQL](#computer-sql)
+
++ [No-SQL](#card_file_box-no-sql)
+  * [H-base](#h-base)
+
+  * [Mondodb](#mongodb)
+
+  * [Neo4j](#neo4j)
+
++ [Spark](#magic_wand-spark)
+
+  * [Spark y Scala](#spark-y-scala)
+
+  * [Kafka](#kafka)
+
+  * [Comparativa Datasets y Dataframe en Scala](#comparativa-datasets-y-dataframe-en-scala)
+
+* [Carga Incremental con Spark](#hourglass-carga-incremental-con-spark)
+
+* [Herramientas de Orquestación de flujo de datos](#abacus-herramientas-de-orquestación-de-flujo-de-datos)
+
+* [Participantes y compañeros del pair programming](#people_hugging-participantes-y-compañeros-del-pair-programming)
