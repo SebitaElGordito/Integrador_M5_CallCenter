@@ -95,8 +95,10 @@ El nivel de servicio se refiere a la calidad y eficiencia con la que se atienden
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Clientes_prioritarios.png" alt="imagen de porción del dashboard mostrando kpi´s de clientes prioritarios" width="650" height="100">
 </p>
-<i align="center">KPI´s filtrados por clientes Premium
+<p align="center">
+<i>KPI´s filtrados por clientes Premium
 </i>
+</p>
 
 <br>
 
