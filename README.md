@@ -157,7 +157,7 @@ Los cuellos de botella ocurren los dias domingo, a las 10 y a las 16. Indistinta
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Frecuencia_llamados.png" alt="imagen de Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha) en los días con mayor número de llamadas." width="650" height="370">
 </p>
 <p align="center">
-<i>Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha) en los días con mayor número de llamadas. </i>
+<i>Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha). </i>
 </p>
 
 <br>
@@ -196,6 +196,49 @@ Hay aproximadamente 4.000 llamadas recurrentes por mes, siendo casi la mitad ges
 
 <br>
 <br>
+
+### G) ¿Cuáles son los tipos de servicio más recurrentes?
+
+Los tipos de servicios mas recurrentes son llamadas Regulares (Información y transacciones sobre cheques y cuentas de ahorros, e información sobre las cuentas de los clientes) y llamadas de clientes prospectos (clientes potenciales).
+
+<br>
+
+<p align="center">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Tipos_llamadas.png" alt="imagen de un gráfico de llamadas ordenadas segun el tipo de llamada." width="650" height="420">
+</p>
+<p align="center">
+<i>Gráfico para el Tipo de llamadas.</i>
+</p>
+
+<br>
+<br>
+
+### H) ¿Podemos estimar la dotación necesaria para cumplir con una calidad de servicio determinada?  Ejemplo: si quiero que mi tiempo promedio de espera sea menor a 60 segundos?
+
+Actualmente el tiempo medio de espera general es de 60 segundos, asi que si, podriamos decir que con la dotación actual de empleados podemos cumplir el objetivo de 60 segundos en tiempo promedio de espera. Igualmente, como mencioné anteriormente, podemos aplicar algunas herramientas para intentar mejorar el servicio en general, y disminuir ese tiempo promedio de espera, sin aumentar el número de empleados. Como se mencionaba anteriormente, se puede prescindir de uno de los empleados asignados a la atención de home banking, para reforzar la atención telefónica general y mejorar los indicadores. Acompañado de otra herramientas, como para bajar el numero de llamadas recurrentes, o una encuenta de satisfacción al finalizar el llamado para tener datos de si realmente estamos solucionando las consultas, pueden ayudarnos a mejorar los indicadores en general.
+
+<br>
+
+<p align="center">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Dashboard_home_banking.png" alt="imagen de un dashboard filtrado por llamadas de tipo home_banking." width="650" height="420">
+</p>
+<p align="center">
+<i>Dashboard filtrado por llamadas de tipo home_banking.</i>
+</p>
+
+<br>
+<br>
+
+## Conclusión
+
+
+Luego de aplicar los procesos de Análisis Exploratorio de Datos (EDA) y Extracción, Transformación y Carga (ETL) sobre el conjunto de datos proporcionado por el Call Center del "Anonymous Bank", se ha logrado obtener una comprensión más profunda de las operaciones y el rendimiento del Call Center. Este análisis ha permitido identificar áreas de mejora en la eficiencia operativa, sobre todo en clientes premium, y la satisfacción del cliente, así como proporcionar una valiosa herramienta de gestión para los responsables del Call Center.
+
+Al construir un Dashboard que permite medir los niveles de calidad de servicio, eficiencia y productividad del Call Center, podemos monitorear el rendimiento del Call Center y establecer los KPIs adecuados para medir los objetivos propuestos. Además, se podrán definir nuevos niveles objetivos para ofrecer un servicio Premium a los clientes más importantes del banco, así como garantizar niveles de SLA a terceros.
+
+El proceso de EDA y ETL no solo ha proporcionado una comprensión más profunda de los datos del Call Center, sino que también ha sentado las bases para mejorar la eficiencia, la productividad y la calidad del servicio del Call Center. Este enfoque basado en datos nos permitirá tomar decisiones informadas y estratégicas para optimizar la operación del Call Center y satisfacer las necesidades de nuestros clientes de manera más efectiva.
+
+Considero que una "encuesta de satisfacción" sería el paso a seguir mas acertado
 
 ## Índice
 
