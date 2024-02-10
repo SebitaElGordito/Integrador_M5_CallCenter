@@ -229,7 +229,7 @@ Actualmente el tiempo medio de espera general es de 60 segundos, asi que si, pod
 <br>
 <br>
 
-## Conclusión
+## :memo: Conclusión
 
 
 Luego de aplicar los procesos de Análisis Exploratorio de Datos (EDA) y Extracción, Transformación y Carga (ETL) sobre el conjunto de datos proporcionado por el Call Center del "Anonymous Bank", se ha logrado obtener una comprensión más profunda de las operaciones y el rendimiento del Call Center. Este análisis ha permitido identificar áreas de mejora en la eficiencia operativa, sobre todo en clientes premium, y la satisfacción del cliente, así como proporcionar una valiosa herramienta de gestión para los responsables del Call Center.
@@ -238,34 +238,25 @@ Al construir un Dashboard que permite medir los niveles de calidad de servicio, 
 
 El proceso de EDA y ETL no solo ha proporcionado una comprensión más profunda de los datos del Call Center, sino que también ha sentado las bases para mejorar la eficiencia, la productividad y la calidad del servicio del Call Center. Este enfoque basado en datos nos permitirá tomar decisiones informadas y estratégicas para optimizar la operación del Call Center y satisfacer las necesidades de nuestros clientes de manera más efectiva.
 
-Considero que una "encuesta de satisfacción" sería el paso a seguir mas acertado
+Considero que una "encuesta de satisfacción" sería el paso a seguir mas acertado, de inmediato, para comenzar a acumular estos datos, y poder realizar en el corto plazo acciones basadas en estos datos obtenidos.
 
 ## Índice
 
-* [Contexto "Anonymous Bank"](#bank-contexto--anonymous-bank--call-center-dataset)
+* [Contexto "Anonymous Bank"](#bank-contexto-anonymous-bank-call-center-dataset)
 
-+ [Creación y conexión de la máquina virtual](#hammer-creación-y-conexión-de-la-máquina-virtual-entorno-linux)
+* [Call Center](#telephone_receiver-call-center)
 
-  * [Limpieza de la máquina virtual (opcional)](#limpieza-de-la-máquina-virtual-opcional)
+* [EDA y ETL](#stethoscope-eda-y-etl)
 
-* [Clonación del Repositorio](#calling-clonación-del-repositorio-inicio-y-ejecución-de-los-servicios-docker-composeyml)
+* [Dashboard](#bar_chart-dashboard)
 
-* [HDFS](#floppy_disk-hdfs---hadoop-distributed-file-system)
++ [Preguntas](#question-preguntas)
 
-* [Hive](#bookmark_tabs-hive)
+  * [A) ¿Cuál es el nivel de servicio para los clientes Prioritarios?](#a-cuál-es-el-nivel-de-servicio-para-los-clientes-prioritarios)
 
-* [Formatos de Almacenamiento](#file_cabinet-formatos-de-almacenamiento)
+  * [B) ¿Damos un mejor servicio que a los clientes normales?](#b-damos-un-mejor-servicio-que-a-los-clientes-normales)
 
-* [SQL](#computer-sql)
-
-+ [No-SQL](#card_file_box-no-sql)
-  * [H-base](#h-base)
-
-  * [Mondodb](#mongodb)
-
-  * [Neo4j](#neo4j)
-
-+ [Spark](#magic_wand-spark)
+  * [C) ¿Qué volumen de llamadas atendemos?](#c-qué-volumen-de-llamadas-atendemos)
 
   * [Spark y Scala](#spark-y-scala)
 
