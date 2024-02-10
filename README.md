@@ -65,6 +65,9 @@ Este Dashboard será una herramienta valiosa para los gerentes del Call Center, 
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Dashboard.png" alt="imagen del dashboard creado en power bi" width="650" height="370">
 </p>
+<p align="center">
+<i>Dashboard en Power Bi</i>
+</p>
 
 <br>
 
@@ -117,9 +120,9 @@ Se podría mejorar aún más con atención personalizada definida en el punto A 
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Clientes_normales.png" alt="imagen de porción del dashboard mostrando kpi´s de clientes normales" width="650" height="100">
 </p>
-<i align="center">
-KPI´s filtrados por clientes Normales
-</i>
+<p align="center">
+<i>KPI´s filtrados por clientes Normales</i>
+</p>
 
 <br>
 
@@ -134,10 +137,22 @@ Atendemos un volumen de llamadas de 444.450 llamadas en total para el año 1999,
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Volumen_llamadas.png" alt="imagen de porción del dashboard mostrando volumen de llamadas por prioridad clientes" width="550" height="370">
 </p>
+<p align="center">
+<i>Volumen de llamadas acumuladas, por mes, y por prioridades</i>
+</p>
 
 <br>
 
+### D) ¿Cuáles son los cuellos de botella? ¿En qué días? ¿En qué bandas horarias?
 
+Los cuellos de botella ocurren los dias domingo, entre las 10 y las 12, y luego de 13 a 15.
+
+<p align="center">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Frecuencia_llamados.png" alt="imagen de Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha) en los días con mayor número de llamadas." width="550" height="370">
+</p>
+<p align="center">
+<i>Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha) en los días con mayor número de llamadas. </i>
+</p>
 
 ## Índice
 
