@@ -242,7 +242,7 @@ Considero que una "encuesta de satisfacción" sería el paso a seguir mas acerta
 
 ## Índice
 
-* [Contexto](#contexto)
+* [Contexto "Anonymous Bank"](#bank-contexto--anonymous-bank--call-center-dataset)
 
 + [Creación y conexión de la máquina virtual](#hammer-creación-y-conexión-de-la-máquina-virtual-entorno-linux)
 
