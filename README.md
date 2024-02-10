@@ -145,10 +145,10 @@ Atendemos un volumen de llamadas de 444.450 llamadas en total para el año 1999,
 
 ### D) ¿Cuáles son los cuellos de botella? ¿En qué días? ¿En qué bandas horarias?
 
-Los cuellos de botella ocurren los dias domingo, entre las 10 y las 12, y luego de 13 a 15.
+Los cuellos de botella ocurren los dias domingo, a las 10 y a las 16. Indistintamente del día, la mayor cantidad de llamadas se registran en esos mismos horarios.
 
 <p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Frecuencia_llamados.png" alt="imagen de Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha) en los días con mayor número de llamadas." width="550" height="370">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Frecuencia_llamados.png" alt="imagen de Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha) en los días con mayor número de llamadas." width="650" height="370">
 </p>
 <p align="center">
 <i>Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha) en los días con mayor número de llamadas. </i>
