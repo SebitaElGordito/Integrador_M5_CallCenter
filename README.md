@@ -109,6 +109,7 @@ Al realizar el EDA, logré detectar que se podrían mejorar aun mas los indicado
 
 También se puede asignar al Agente "de guardia" a atender llamadas de clientes y prospectos, cuando no tiene "solicitudes de llamadas de clientes premium", lo que ayudaría a disminuir el tiempo medio de espera de los clientes premium, que actualmente se encuentra en 58 segundos.
 
+<br>
 
 ### B) ¿Damos un mejor servicio que a los clientes normales?
 
@@ -128,6 +129,8 @@ Se podría mejorar aún más con atención personalizada definida en el punto A 
 
 Teniendo en cuenta todo esto, y viendo las métricas, se concluye que el servicio NO es mejor para clientes premium, habiendo margen de mejora en varios aspectos.
 
+<br>
+
 ### C) ¿Qué volumen de llamadas atendemos?
 
 Atendemos un volumen de llamadas de 444.450 llamadas en total para el año 1999, lo que nos da un promedio de 37.000 llamadas por mes.
@@ -142,10 +145,13 @@ Atendemos un volumen de llamadas de 444.450 llamadas en total para el año 1999,
 </p>
 
 <br>
+<br>
 
 ### D) ¿Cuáles son los cuellos de botella? ¿En qué días? ¿En qué bandas horarias?
 
 Los cuellos de botella ocurren los dias domingo, a las 10 y a las 16. Indistintamente del día, la mayor cantidad de llamadas se registran en esos mismos horarios.
+
+<br>
 
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Frecuencia_llamados.png" alt="imagen de Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha) en los días con mayor número de llamadas." width="650" height="370">
@@ -153,6 +159,9 @@ Los cuellos de botella ocurren los dias domingo, a las 10 y a las 16. Indistinta
 <p align="center">
 <i>Frecuencia de llamadas acumuladas por día (izquierda), y por hora (derecha) en los días con mayor número de llamadas. </i>
 </p>
+
+<br>
+<br>
 
 ## Índice
 
