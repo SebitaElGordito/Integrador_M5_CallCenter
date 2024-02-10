@@ -85,6 +85,20 @@ Por lo tanto, el proceso de EDA y ETL no sólo nos permite entender mejor los da
 
 <br>
 
+### A) ¿Cuál es el nivel de servicio para los clientes Prioritarios?
+
+Para responder cuál es el nivel de servicio para los clientes prioritarios, se deben establecer niveles de atención. De otra manera se hace dificil establecer exactamente un nivel de atención.
+El nivel de servicio se refiere a la calidad y eficiencia con la que se atienden las necesidades y solicitudes de los clientes. Para los clientes prioritarios, esto puede implicar una atención más rápida, un acceso preferencial a servicios y recursos, y una mayor personalización en la atención al cliente. Teniendo en cuenta ésto ultimo, se puede decir que el servicio para clientes premium o de alta prioridad es mejor que el servicio a clientes normales.
+
+<br>
+
+<p align="center">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Clientes_prioritarios.png" alt="imagen de porción del dashboard mostrando kpi´s de clientes prioritarios" width="650" height="50">
+</p>
+
+<br>
+
+
 ## Índice
 
 * [Contexto](#contexto)
