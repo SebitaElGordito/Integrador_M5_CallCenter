@@ -2,6 +2,37 @@
 
 <br>
 
+## Índice
+
+* [Contexto "Anonymous Bank"](#bank-contexto-anonymous-bank-call-center-dataset)
+
+* [Call Center](#telephone_receiver-call-center)
+
+* [EDA y ETL](#stethoscope-eda-y-etl)
+
+* [Dashboard](#bar_chart-dashboard)
+
++ [Preguntas](#question-preguntas)
+
+  * [A) ¿Cuál es el nivel de servicio para los clientes Prioritarios?](#a-cuál-es-el-nivel-de-servicio-para-los-clientes-prioritarios)
+
+  * [B) ¿Damos un mejor servicio que a los clientes normales?](#b-damos-un-mejor-servicio-que-a-los-clientes-normales)
+
+  * [C) ¿Qué volumen de llamadas atendemos?](#c-qué-volumen-de-llamadas-atendemos)
+
+  * [D) ¿Cuáles son los cuellos de botella? ¿En qué días? ¿En qué bandas horarias?](#d-cuáles-son-los-cuellos-de-botella-en-qué-días-en-qué-bandas-horarias)
+
+  * [E) ¿Cómo es la eficiencia y productividad de nuestros agentes?](#e-cómo-es-la-eficiencia-y-productividad-de-nuestros-agentes)
+  
+  * [F) ¿Hay clientes recurrentes en el uso del servicio?](#f-hay-clientes-recurrentes-en-el-uso-del-servicio)
+  
+  * [G) ¿Cuáles son los tipos de servicio más recurrentes?](#g-cuáles-son-los-tipos-de-servicio-más-recurrentes)
+
+  * [H) ¿Podemos estimar la dotación necesaria para cumplir con una calidad de servicio determinada?](#h-podemos-estimar-la-dotación-necesaria-para-cumplir-con-una-calidad-de-servicio-determinada--ejemplo-si-quiero-que-mi-tiempo-promedio-de-espera-sea-menor-a-60-segundos)
+
+* [Conclusión](#memo-conclusión)
+
+<br>
 
 ## :bank: Contexto "Anonymous Bank" Call-Center DataSet 
 
@@ -240,32 +271,8 @@ El proceso de EDA y ETL no solo ha proporcionado una comprensión más profunda 
 
 Considero que una "encuesta de satisfacción" sería el paso a seguir mas acertado, de inmediato, para comenzar a acumular estos datos, y poder realizar en el corto plazo acciones basadas en estos datos obtenidos.
 
-## Índice
+<br>
 
-* [Contexto "Anonymous Bank"](#bank-contexto-anonymous-bank-call-center-dataset)
+<br>
 
-* [Call Center](#telephone_receiver-call-center)
-
-* [EDA y ETL](#stethoscope-eda-y-etl)
-
-* [Dashboard](#bar_chart-dashboard)
-
-+ [Preguntas](#question-preguntas)
-
-  * [A) ¿Cuál es el nivel de servicio para los clientes Prioritarios?](#a-cuál-es-el-nivel-de-servicio-para-los-clientes-prioritarios)
-
-  * [B) ¿Damos un mejor servicio que a los clientes normales?](#b-damos-un-mejor-servicio-que-a-los-clientes-normales)
-
-  * [C) ¿Qué volumen de llamadas atendemos?](#c-qué-volumen-de-llamadas-atendemos)
-
-  * [D) ¿Cuáles son los cuellos de botella? ¿En qué días? ¿En qué bandas horarias?](#d-cuáles-son-los-cuellos-de-botella-en-qué-días-en-qué-bandas-horarias)
-
-  * [E) ¿Cómo es la eficiencia y productividad de nuestros agentes?](#e-cómo-es-la-eficiencia-y-productividad-de-nuestros-agentes)
-  
-  * [F) ¿Hay clientes recurrentes en el uso del servicio?](#f-hay-clientes-recurrentes-en-el-uso-del-servicio)
-  
-  * [G) ¿Cuáles son los tipos de servicio más recurrentes?](#g-cuáles-son-los-tipos-de-servicio-más-recurrentes)
-
-  * [H) ¿Podemos estimar la dotación necesaria para cumplir con una calidad de servicio determinada?](#h-podemos-estimar-la-dotación-necesaria-para-cumplir-con-una-calidad-de-servicio-determinada--ejemplo-si-quiero-que-mi-tiempo-promedio-de-espera-sea-menor-a-60-segundos)
-
-* [Conclusión](#memo-conclusión)
+* **`Sebastian Vazquez`**..................   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sebastian-vazquez-67353722b/)
