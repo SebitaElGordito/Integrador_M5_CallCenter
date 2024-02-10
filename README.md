@@ -71,122 +71,18 @@ Este Dashboard será una herramienta valiosa para los gerentes del Call Center, 
 Además, este Dashboard también puede ser una herramienta valiosa para el banco y sus clientes. Al ofrecer niveles de SLA a terceros, el banco puede garantizar un cierto nivel de servicio y calidad a sus clientes. Asimismo, al desarrollar un nuevo servicio Premium para los clientes más importantes del banco, el banco puede mejorar su relación con estos clientes y aumentar su satisfacción.
 Por lo tanto, el proceso de EDA y ETL no sólo nos permite entender mejor los datos del Call Center, sino que también nos permite usar estos datos para mejorar la eficiencia, la productividad y la calidad del servicio del Call Center, y para proporcionar una herramienta valiosa para la gestión y la toma de decisiones en el Call Center.
 
-<p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M4/blob/main/Imagenes_proyecto/Creacion_imagen_ubuntu.png" alt="imagen de creación de espacio en disco y montado de imagen ubuntu." width="650" height="420">
-</p>
 
-*Luego de colocarle nombre a la maquina virtual, se selecciona la pestaña de disco duro, y se selecciona la opción de Usar un archivo de disco duro virtual existente. En la ventana que se abre a continuación, se selecciona añadir, y se busca la imagen de linux ubuntu previamente descargada.*
+## :question: Preguntas
 
-<br>
-<br>
-<p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M4/blob/main/Imagenes_proyecto/Configuracion_servidor.png" alt="imagen de la configuración del servidor de la máquina virtual" width="650" height="420">
-</p>
+*  A) ¿Cuál es el nivel de servicio para los clientes Prioritarios? 
+*  B) ¿Damos un mejor servicio que a los clientes normales?
+*  C) ¿Qué volumen de llamadas atendemos? 
+*  D) ¿Cuáles son los cuellos de botella? ¿En qué días? ¿En qué bandas horarias?
+*  E) ¿Cómo es la eficiencia y productividad de nuestros agentes?
+*  F) ¿Hay clientes recurrentes en el uso del servicio?
+*  G) ¿Cuáles son los tipos de servicio más recurrentes?
+*  H) ¿Podemos estimar la dotación necesaria para cumplir con una calidad de servicio determinada?  Ejemplo: si quiero que mi tiempo promedio de espera sea menor a 60 segundos?
 
-*Luego de haber montado la imagen del sistema operativo, se procede a la configuración del servidor. Ésta configuración radica en la cantidad de núcleos del procesador que se le asignará a la máquina virtual, asi como tambien la cantidad de GB de memoria RAM y se habilitarán los permisos y conexiones de red correspondientes para poder trabajar con el entorno local de windows.*
-
-<br>
-<br>
-<p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M4/blob/main/Imagenes_proyecto/Conexion_putty.png" alt="imagen de conexión de máquina virtual con putty" width="650" height="420">
-</p>
-
-*Luego de haber configurado todo, se enciende la máquina virtual. Luego de que carguen todos los archivos y dependencias, se ingresa usuario y contraseña Ubuntu, y se ingresa el comando hostname -I para obtener la dirección IP del entorno local. Con ésta dirección IP se procede a conectar Putty, que lo que nos permite es una mayor libertad y mejor interacción con lo que estemos haciendo en el mismo entorno virtual.*
-
-<br>
-
-
-
-#### Limpieza del disco duro
-
-Borrar todo: 
-
-```
-  docker system prune -a
-```
-
-#### Limpiar Carpetas
-
-Visualizar las carpetas:
-
-```
-  ls
-```
- 
-#### Eliminar carpetas (una por una):
-
-```
-  rm -r <Nombre de carpeta> 
-```
-
-#### Limpiar Contenedores
-
-Visualizar contenedores:
-
-```
-    sudo docker ps
-```
-
-Eliminar TODOS los contenedores:
-
-```
-  sudo docker rm -f $(sudo docker ps -a -q)
-```
-
-#### Limpiar Volumen
-
-Visualizar volumen:
-
-    sudo docker volume ls
-
-Eliminar TODO los volumenes:
-
-```
-  sudo docker volume prune
-```
-
-#### Limpiar Imágenes
-
-Visualizar Imágenes:
-
-```
-  sudo docker image ls
-```
-
-Eliminar TODAS las imagenes:
-
-```
-  sudo docker image prune
-```
-
-#### Verificar si está limpio maquina virtual (MV)
-
-Visualizar espacio disponible:
-
-```
-  df -h
-```
-
-<br>
-
-## :calling: Clonación del repositorio, inicio y ejecución de los servicios docker-compose.yml
-
-Para empezar, clonamos el repositorio, entramos dentro de la carpeta, e iniciamos, y ejecutamos los servicios dentro de docker-compose.yml, según el siguiente código...
-```
-  git clone https://github.com/lopezdar222/herramientas_big_data
-  cd herramientas_big_data
-  sudo docker-compose -f docker-compose-v1.yml up -d 
-```
-
-<br>
-
-<p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M4/blob/main/Imagenes_proyecto/Clonando_repo.png" alt="imagen dentro de putty, clonación de repositorio de github" width="450" height="290">
-</p>
-
-<br>
-
- 
 <br>
 
 ## Índice
