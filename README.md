@@ -7,15 +7,14 @@
 
 Este documento describe caso de negocio basado en un Call Center de un Banco: “Anonymous Bank” en Israel. El dataset contiene las llamadas registradas durante 12 meses (desde el 01/01/99 hasta el 31/12/99).
 
-El call center de "Anonymous Bank" provee varios servicios diferentes:
+##### El call center de "Anonymous Bank" provee varios servicios diferentes:
 
 * Información y transacciones sobre cheques y cuentas de ahorros, de sus clientes bancarios.
 * Respuesta de voz generada por computadora con información sobre las cuentas de los clientes (a través del dispositivo VRU = Voice Response Unit (unidad de respuesta de voz). Una unidad de respuesta de voz (VRU) es un sistema de contestador telefónico automático que posee un hardware y software que permite a la persona que llama navegar a través de una serie de mensajes pregrabados y utilizar un menú de opciones mediante los botones de un teléfono o el reconocimiento de voz.)
 * Brindar información a prospectos de clientes. 
 * Soporte a los clientes del web-site de "Anonymous Bank" (clientes que acceden al Home Banking)
 
-##### Capacidad del Call Center
-El call center esta conformado por:
+##### El call center esta conformado por:
 * 8 posiciones de agentes para llamadas de clientes y prospectos
 * 1 posición de supervisor
 * 5 posiciones de agentes para llamadas para soporte de internet home banking (en un cuarto adjac room)
@@ -39,12 +38,15 @@ Para ello, se propone que definamos los KPIs adecuados para poder medir los obje
 ## :stethoscope: EDA y ETL
 
 
-Con el propósito es examinar en profundidad las operaciones del Call Center para identificar oportunidades de mejora en términos de eficiencia operativa y satisfacción del cliente, además de proporcionar una herramienta de gestión útil para los responsables del Call Center, se aplicaron los procesos de EDA y ETL sobre el conjunto de datos provisto por el banco. Habiendo hecho esto estaremos en condiciones de definir, construir y presentar un Dashboard que permita medir los niveles de calidad de servicio, eficiencia y productividad del Call Center. A partir de este análisis, podremos definir los KPIs adecuados para medir los objetivos propuestos, y establecer nuevos niveles objetivos para ofrecer esos niveles de SLA a terceros, o para desarrollar un nuevo servicio Premium para los clientes más importantes del banco.
+Con el propósito es examinar en profundidad las operaciones del Call Center para identificar oportunidades de mejora en términos de eficiencia operativa y satisfacción del cliente, además de proporcionar una herramienta de gestión útil para los responsables del Call Center, se le realizó un EDA y ETL al Dataset provisto. El Análisis Exploratorio de Datos es una técnica que nos permite entender las características principales de nuestro conjunto de datos, generalmente a través de métodos visuales. En este caso, el EDA nos ayudará a descifrar los matices de los datos del Call Center, y a descubrir posibles áreas de mejora. Mientras que el ETL es un proceso que consiste en extraer datos de diferentes fuentes, transformarlos para satisfacer los objetivos comerciales y cargarlos en un sistema de destino.
+A partir de este análisis, podremos definir los KPIs adecuados para medir los objetivos propuestos, y establecer nuevos niveles objetivos para ofrecer esos niveles de SLA a terceros, o para desarrollar un nuevo servicio Premium para los clientes más importantes del banco.
 
 <br>
+
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/EDA_ETL.png" alt="imagen de dataset en powerquery" width="650" height="420">
 </p>
+
 <br>
 
 Se realizaron modificaciones en los valores de varias columnas , decidiendo no imputar esos datos, por encontrar una lógica para su transformación y conservación. En la columna de los agentes existian errores de ingreso de los nombres de los agentes. Estos datos podrían corroborarse pidiendo una lista de los nombres de los empleados, pero por ejemplo, se decidió unificar las llamadas asignadas al empleado NAAMAT con las del agente No_serverAMAT, o el empleado ANAT y los datos del empleado ANo_serverT, encontrando la relación lógica de que en los empleados donde existian las letras NA, por alguna razón se les modificaba a "No_server".
@@ -53,6 +55,21 @@ También se transformaron por ejemplo los datos en la columna de Tiempo de la Ll
 
 <br>
 
+## :bar_chart: Dashboard
+
+Luego de que se aplicaron los procesos de EDA y ETL sobre el conjunto de datos provisto por el banco, nos encontramos en una posición donde podemos definir, construir y presentar un Dashboard que permita medir los niveles de calidad de servicio, eficiencia y productividad del Call Center.
+Este Dashboard será una herramienta valiosa para los gerentes del Call Center, ya que proporcionará una visión clara y en tiempo real del rendimiento del Call Center. Los KPIs y los niveles objetivos que definamos a partir de nuestro análisis servirán como parámetros para evaluar la eficiencia y la productividad del Call Center, y para identificar áreas donde se puedan hacer mejoras.
+
+<br>
+
+<p align="center">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Dashboard.png" alt="imagen del dashboard creado en power bi" width="650" height="420">
+</p>
+
+<br>
+
+Además, este Dashboard también puede ser una herramienta valiosa para el banco y sus clientes. Al ofrecer niveles de SLA a terceros, el banco puede garantizar un cierto nivel de servicio y calidad a sus clientes. Asimismo, al desarrollar un nuevo servicio Premium para los clientes más importantes del banco, el banco puede mejorar su relación con estos clientes y aumentar su satisfacción.
+Por lo tanto, el proceso de EDA y ETL no sólo nos permite entender mejor los datos del Call Center, sino que también nos permite usar estos datos para mejorar la eficiencia, la productividad y la calidad del servicio del Call Center, y para proporcionar una herramienta valiosa para la gestión y la toma de decisiones en el Call Center.
 
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M4/blob/main/Imagenes_proyecto/Creacion_imagen_ubuntu.png" alt="imagen de creación de espacio en disco y montado de imagen ubuntu." width="650" height="420">
@@ -78,7 +95,7 @@ También se transformaron por ejemplo los datos en la columna de Tiempo de la Ll
 
 <br>
 
-## :bar_chart: Dashboard
+
 
 #### Limpieza del disco duro
 
