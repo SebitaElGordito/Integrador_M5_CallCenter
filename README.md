@@ -163,6 +163,23 @@ Los cuellos de botella ocurren los dias domingo, a las 10 y a las 16. Indistinta
 <br>
 <br>
 
+### E) ¿Cómo es la eficiencia y productividad de nuestros agentes?
+
+La eficiencia es del 100% en la mayoría de los agentes, pero solo en llamadas asignadas vs llamadas atendidas, porque al no contar con un sistema de "encuesta de satisfacción", o algo parecido, desconocemos si los agentes fueron capaces de brindar un servicio y solucionar el motivo de consulta del cliente.
+En la siguiente tabla se muestra los 10 empleados con mayor cantidad de llamadas atendidas, y algunos indicadores.
+
+<br>
+
+<p align="center">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/eficiencia_empleados.png" alt="imagen de una tabla de empleados, mostrando métricas" width="650" height="370">
+</p>
+<p align="center">
+<i>Tabla de TOP 10 de empleados con mayor volúmen de llamados anual, eficiencia, productividad y TMG.</i>
+</p>
+
+<br>
+<br>
+
 ## Índice
 
 * [Contexto](#contexto)
