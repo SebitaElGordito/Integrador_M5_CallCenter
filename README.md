@@ -44,7 +44,7 @@ A partir de este análisis, podremos definir los KPIs adecuados para medir los o
 <br>
 
 <p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/EDA_ETL.png" alt="imagen de dataset en powerquery" width="650" height="420">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/EDA_ETL.png" alt="imagen de dataset en powerquery" width="650" height="370">
 </p>
 
 <br>
@@ -63,7 +63,7 @@ Este Dashboard será una herramienta valiosa para los gerentes del Call Center, 
 <br>
 
 <p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Dashboard.png" alt="imagen del dashboard creado en power bi" width="650" height="420">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Dashboard.png" alt="imagen del dashboard creado en power bi" width="650" height="370">
 </p>
 
 <br>
