@@ -171,7 +171,7 @@ En la siguiente tabla se muestra los 10 empleados con mayor cantidad de llamadas
 <br>
 
 <p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/eficiencia_empleados.png" alt="imagen de una tabla de empleados, mostrando métricas" width="650" height="370">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/eficiencia_empleados.png" alt="imagen de una tabla de empleados, mostrando métricas" width="650" height="420">
 </p>
 <p align="center">
 <i>Tabla de TOP 10 de empleados con mayor volúmen de llamados anual, eficiencia, productividad y TMG.</i>
