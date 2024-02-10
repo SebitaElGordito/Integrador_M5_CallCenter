@@ -87,16 +87,48 @@ Por lo tanto, el proceso de EDA y ETL no sólo nos permite entender mejor los da
 
 ### A) ¿Cuál es el nivel de servicio para los clientes Prioritarios?
 
-Para responder cuál es el nivel de servicio para los clientes prioritarios, se deben establecer niveles de atención. De otra manera se hace dificil establecer exactamente un nivel de atención.
+Para responder cuál es el nivel de servicio para los clientes prioritarios, se deben establecer niveles de atención predefinidos, o tener cierta referencia para poder inferir que el servicio es bueno o malo. De otra manera, se hace dificil establecer exactamente un nivel de atención.
 El nivel de servicio se refiere a la calidad y eficiencia con la que se atienden las necesidades y solicitudes de los clientes. Para los clientes prioritarios, esto puede implicar una atención más rápida, un acceso preferencial a servicios y recursos, y una mayor personalización en la atención al cliente. Teniendo en cuenta ésto ultimo, se puede decir que el servicio para clientes premium o de alta prioridad es mejor que el servicio a clientes normales.
 
 <br>
 
 <p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Clientes_prioritarios.png" alt="imagen de porción del dashboard mostrando kpi´s de clientes prioritarios" width="650" height="50">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Clientes_prioritarios.png" alt="imagen de porción del dashboard mostrando kpi´s de clientes prioritarios" width="650" height="100">
 </p>
 
 <br>
+
+Al realizar el EDA, logré detectar que se podrían mejorar aun mas los indicadores para clientes premium. Por ejemplo, la dotación actual es de 8 posiciones de agentes para llamadas de clientes y prospectos, 1 posición de supervisor y 5 posiciones de agentes para llamadas para soporte de internet home banking (en un cuarto adjac room). La cantidad de llamadas mensuales es aproximadamente 4 veces menor de clientes que consultan por cuestiones de homebanking, respecto de llamadas de otro tipo, pero su TMG o Tiempo Medio de Gestión es 2 veces mayor. Teniendo en cuenta estas cuestiones, se podría designar a 1 de los 5 empleados en "posición para llamadas para soporte de internet home banking" para que en el caso de existir un llamada del tipo "Solicitud de llamada" y que la misma corresponda a un cliente premium, el empleado "de guardia" se comunique con el cliente premium y le preste servicio, para evitar uno de los problemas que existe en el call center, que es que al momento de ser llamados por el URV, el cliente es puesto en cola de espera, porque el Agente que se habia designado para tal fin, atendió otra llamada. Esto es viable si tenemos en cuenta que al año solo hay 4136 llamadas del tipo "solicitud de llamada" realizada por clientes premium, 345 llamados por mes, aproximadamente 12 llamados por día.
+
+También se puede asignar al Agente "de guardia" a atender llamadas de clientes y prospectos, cuando no tiene "solicitudes de llamadas de clientes premium", lo que ayudaría a disminuir el tiempo medio de espera de los clientes premium, que actualmente se encuentra en 58 segundos.
+
+
+### B) ¿Damos un mejor servicio que a los clientes normales?
+
+En general, los clientes prioritarios suelen recibir un nivel de servicio más alto en comparación con otros clientes. Pero en este caso solo se aplica una disminución en su tiempo de espera (tiempo de espera x 1,5) haciendo que su tiempo de espera corra más rápido y adelantandose así en la cola.
+
+<br>
+
+<p align="center">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Clientes_normales.png" alt="imagen de porción del dashboard mostrando kpi´s de clientes normales" width="650" height="100">
+</p>
+
+<br>
+
+Se podría mejorar aún más con atención personalizada definida en el punto A y seguimiento proactivo de las necesidades de los clientes prioritarios.
+
+### C) ¿Qué volumen de llamadas atendemos?
+
+Atendemos un volumen de llamadas de 444.450 llamadas en total para el año 1999, lo que nos da un promedio de 37.000 llamadas por mes.
+
+<br>
+
+<p align="center">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Volumen_llamadas.png" alt="imagen de porción del dashboard mostrando volumen de llamadas por prioridad clientes" width="550" height="370">
+</p>
+
+<br>
+
 
 
 ## Índice
