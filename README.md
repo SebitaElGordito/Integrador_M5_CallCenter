@@ -180,6 +180,23 @@ En la siguiente tabla se muestra los 10 empleados con mayor cantidad de llamadas
 <br>
 <br>
 
+### F) ¿Hay clientes recurrentes en el uso del servicio?
+
+Si, hay clientes recurrentes en el uso del servicio, lo que da cuenta de que se necesita algun método para identificar si los agentes son capaces de solucionar las consultas al dar servicio, o si se necesita alguna capacitación en el area, o lograr disernir que aspectos hay que mejorar.
+Hay aproximadamente 4.000 llamadas recurrentes por mes, siendo casi la mitad gestionadas por clientes Premium.
+
+<br>
+
+<p align="center">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Llamadas_recurrentes.png" alt="imagen de un gráfico de barras de llamadas recurrentes" width="650" height="420">
+</p>
+<p align="center">
+<i>Gráfico de barras de llamadas recurrentes ordenadas por mes y tipo de clientes.</i>
+</p>
+
+<br>
+<br>
+
 ## Índice
 
 * [Contexto](#contexto)
