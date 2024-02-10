@@ -95,6 +95,9 @@ El nivel de servicio se refiere a la calidad y eficiencia con la que se atienden
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Clientes_prioritarios.png" alt="imagen de porción del dashboard mostrando kpi´s de clientes prioritarios" width="650" height="100">
 </p>
+<p align="center">
+*KPI´s filtrados por clientes Premium*
+</p>
 
 <br>
 
@@ -106,16 +109,20 @@ También se puede asignar al Agente "de guardia" a atender llamadas de clientes 
 ### B) ¿Damos un mejor servicio que a los clientes normales?
 
 En general, los clientes prioritarios suelen recibir un nivel de servicio más alto en comparación con otros clientes. Pero en este caso solo se aplica una disminución en su tiempo de espera (tiempo de espera x 1,5) haciendo que su tiempo de espera corra más rápido y adelantandose así en la cola.
+Se podría mejorar aún más con atención personalizada definida en el punto A y seguimiento proactivo de las necesidades de los clientes prioritarios.
 
 <br>
 
 <p align="center">
 <img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Clientes_normales.png" alt="imagen de porción del dashboard mostrando kpi´s de clientes normales" width="650" height="100">
 </p>
+<p align="center">
+*KPI´s filtrados por clientes Normales*
+</p>
 
 <br>
 
-Se podría mejorar aún más con atención personalizada definida en el punto A y seguimiento proactivo de las necesidades de los clientes prioritarios.
+Teniendo en cuenta todo esto, y viendo las métricas, se concluye que el servicio NO es mejor para clientes premium, habiendo margen de mejora en varios aspectos.
 
 ### C) ¿Qué volumen de llamadas atendemos?
 
