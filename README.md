@@ -220,7 +220,7 @@ Actualmente el tiempo medio de espera general es de 60 segundos, asi que si, pod
 <br>
 
 <p align="center">
-<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/Dashboard_home_banking.png" alt="imagen de un dashboard filtrado por llamadas de tipo home_banking." width="650" height="420">
+<img src="https://github.com/SebitaElGordito/Integrador_M5_CallCenter/blob/main/Imagenes/dashboard_home_banking.png" alt="imagen de un dashboard filtrado por llamadas de tipo home_banking." width="650" height="420">
 </p>
 <p align="center">
 <i>Dashboard filtrado por llamadas de tipo home_banking.</i>
@@ -258,14 +258,14 @@ Considero que una "encuesta de satisfacción" sería el paso a seguir mas acerta
 
   * [C) ¿Qué volumen de llamadas atendemos?](#c-qué-volumen-de-llamadas-atendemos)
 
-  * [Spark y Scala](#spark-y-scala)
+  * [D) ¿Cuáles son los cuellos de botella? ¿En qué días? ¿En qué bandas horarias?](#d-cuáles-son-los-cuellos-de-botella-en-qué-días-en-qué-bandas-horarias)
 
-  * [Kafka](#kafka)
+  * [E) ¿Cómo es la eficiencia y productividad de nuestros agentes?](#e-cómo-es-la-eficiencia-y-productividad-de-nuestros-agentes)
+  
+  * [F) ¿Hay clientes recurrentes en el uso del servicio?](#f-hay-clientes-recurrentes-en-el-uso-del-servicio)
+  
+  * [G) ¿Cuáles son los tipos de servicio más recurrentes?](#g-cuáles-son-los-tipos-de-servicio-más-recurrentes)
 
-  * [Comparativa Datasets y Dataframe en Scala](#comparativa-datasets-y-dataframe-en-scala)
+  * [H) ¿Podemos estimar la dotación necesaria para cumplir con una calidad de servicio determinada?](#h-podemos-estimar-la-dotación-necesaria-para-cumplir-con-una-calidad-de-servicio-determinada--ejemplo-si-quiero-que-mi-tiempo-promedio-de-espera-sea-menor-a-60-segundos)
 
-* [Carga Incremental con Spark](#hourglass-carga-incremental-con-spark)
-
-* [Herramientas de Orquestación de flujo de datos](#abacus-herramientas-de-orquestación-de-flujo-de-datos)
-
-* [Participantes y compañeros del pair programming](#people_hugging-participantes-y-compañeros-del-pair-programming)
+* [Conclusión](#memo-conclusión)
